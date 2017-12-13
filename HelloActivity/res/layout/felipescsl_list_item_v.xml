@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="@color/white"
+    android:layout_height="fill_parent">
+     <ImageView
+          android:id="@+id/unInstall"
+          android:visibility="invisible"
+          android:src="@drawable/felipescsl_delete"
+          android:adjustViewBounds="true"
+          android:scaleType="centerInside"
+          android:layout_width="30dp"
+          android:layout_height="30dp" />
+     <ImageView 
+         android:id="@+id/canUpdate"
+         android:layout_width="60dp"
+         android:layout_height="60dp"
+         android:layout_centerInParent="true"
+         android:background="@drawable/felipescsl_rect_ring_bg"
+         android:visibility="invisible"/>
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+        <ImageView 
+            android:id="@+id/mImage"
+            android:layout_width="60dp"
+            android:adjustViewBounds="true"
+            android:layout_height="60dp"/>
+        <TextView 
+            android:id="@+id/mText"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            />
+    </LinearLayout>
+ 
+</RelativeLayout>
