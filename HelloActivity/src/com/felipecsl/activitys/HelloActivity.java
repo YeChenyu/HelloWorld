@@ -50,7 +50,7 @@ public class HelloActivity extends Activity {
 	private AsymmetricGridView mGridView;
 	private AppsAdapter mAdapter;
 	private List<DemoItem> mItems;
-	//���״̬����
+	//?????????
 	private int[] colors_pressed = new int[] { R.color.menu_color_1_press,
 			R.color.menu_color_2_press, R.color.menu_color_3_press,
 			R.color.menu_color_4_press, R.color.menu_color_5_press,
@@ -71,17 +71,18 @@ public class HelloActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        requestWindowFeature(Window.FEATURE_NO_TITLE);// ȥ��������
+        requestWindowFeature(Window.FEATURE_NO_TITLE);// ?????????
         setContentView(R.layout.felipescsl_main_activity);
         fdjkfjdkfjd
         initViews();
         initDatas();
+        打开房间打开附近的空间发呆发
     }
     
     
 	private void initViews() {
 		// TODO Auto-generated method stub
-		//��һ��  �����򲼾�
+		//?????  ???????
 		mGridView = (AsymmetricGridView)findViewById(R.id.mGridView);
 		mItems = new ArrayList<DemoItem>();
 
